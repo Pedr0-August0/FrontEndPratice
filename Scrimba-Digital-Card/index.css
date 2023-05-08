@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.FotoRosto {
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid #d6d6d6;
+}
+
+.FotoRosto:hover {
+  border: 2px solid #ffd100;
+}
+
+.cartao {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #202020;
+  color: #ffd100;
+  text-shadow: 1px 1px 2px #d6d6d6;
+  border-radius: 20px;
+  border: 2px solid #333533;
+  box-shadow: 3px 4px 2px #d6d6d6;
+
+}
