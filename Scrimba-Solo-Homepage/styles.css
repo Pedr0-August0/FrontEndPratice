@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  background-color: #E9EDC9;
+}
+
+.hero {
+  background-image: url(images/hero.webp);
+  height: 250px;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#hero-title {
+  background-color: #CCD5AE;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px;
+  color: #121212;
+}
+
+#hero-text {
+  background-color: #E9EDC9;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px;
+  color: #121212;
+}
+
+.fav-songs-header {
+  background-color: #FAEDCD;
+  margin-top: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.fav-songs-section {
+  background-color: #FAEDCD;
+  margin-top: 0px;
+  height: 320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+
+}
+
+.fav-songs-section-child {
+  width: 120px;
+  font-size: small;
+  text-align: center;
+}
+
+.fav-songs-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #D4A373;
+}
+
+.card {
+  background-color: #CCD5AE;
+  display: flex;
+  width: 500px;
+  padding: 30px;
+  margin: 50px auto;
+  border: 5px solid #D4A373;
+  border-radius: 10px;
+}
+
+#card-picture {
+  width: 200px;
+  margin-right: 30px;
+  border: 2px solid #FAEDCD;
+  border-radius: 5px;
+}
