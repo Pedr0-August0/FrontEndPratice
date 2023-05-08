@@ -1,0 +1,65 @@
+@font-face {
+  font-family: timer;
+  src: local(DS-Digital), url(fonts/DS-DIGI.TTF), url(fonts/DS-DIGIB.TTF), url(fonts/DS-DIGII.TTF), url(fonts/DS-DIGIT.TTF);
+}
+
+body {
+  font-family: timer;
+}
+
+.scoreboard-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto 0 auto;
+  width: 862px;
+  height: 477px;
+  background-color: #1B244A;
+  text-align: center;
+}
+
+.team-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  margin-top: 80px;
+  color: #EEEEEE;
+  margin-bottom: 31px;
+}
+
+.score {
+  width: 232px;
+  height: 180px;
+  background-color: #080001;
+  color: #F94F6D;
+  font-size: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.btn {
+  width: 67px;
+  height: 67px;
+  margin-top: 39px;
+  background-color: #1B244A;
+  border: 2px solid #EEEEEE;
+  color: #EEEEEE;
+  font-family: inherit;
+  font-size: 30px;
+  border-radius: 6px;
+  font-weight: lighter;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.new-game-container {
+  width: 862px;
+  background-color: #1B244A;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#new-game-btn {
+  width: fit-content;
+}

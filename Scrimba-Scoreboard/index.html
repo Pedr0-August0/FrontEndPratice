@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="scoreboard-container">
+    <div class="score-container">
+      <h2 class="team-name">HOME</h2>
+      <div class="score">
+        <span class=team-points id="team1-points"></span>
+      </div>
+      <div class="score-btns">
+        <button onclick="team1Add1Points()" class="btn" id="add1PointsTeam1">+1</button>
+        <button onclick="team1Add2Points()" class="btn" id="add2PointsTeam1">+2</button>
+        <button onclick="team1Add3Points()" class="btn" id="add3PointsTeam1">+3</button>
+      </div>
+    </div>
+    <div class="score-container">
+      <h2 class="team-name">GUEST</h2>
+      <div class="score">
+        <span class=team-points id="team2-points"></span>
+      </div>
+      <div class="score-btns">
+        <button onclick="team2Add1Points()" class="btn" id="add1PointsTeam2">+1</button>
+        <button onclick="team2Add2Points()" class="btn" id="add2PointsTeam2">+2</button>
+        <button onclick="team2Add3Points()" class="btn" id="add3PointsTeam2">+3</button>
+      </div>
+    </div>
+  </div>
+  <div class="new-game-container">
+    <button onclick="newGame()" class="btn" id="new-game-btn">NEW GAME</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
