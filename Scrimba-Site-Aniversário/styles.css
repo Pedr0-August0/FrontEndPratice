@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  font-family: Happy Monkey, cursive;
+  color: #ffffff;
+  background: linear-gradient(#80ffdb, #7400b8)
+}
+
+#cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 0px 0px 3px black;
+}
+
+#aniver-idade {
+  background-color: #6930c3;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin: 20px 0 10px 0;
+}
+
+#aniver-data {
+  background-color: #6930c3;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 6px;
+}
+
+#foto-rosto {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #6930c3;
+}
+
+.presente-secao {
+  margin: 50px 0 0 0;
+  text-shadow: 0px 0px 3px black;
+}
+
+.presente-titulo {
+  margin-bottom: 6px;
+}
+
+.presente-dica {
+  margin-top: 0;
+}
+
+.presente-tampa {
+  margin: 20px auto 30px auto;
+  background-image: url("Images/tampa-presente.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#presente-tampa-presente:hover {
+  background-image: url("Images/pegasus.jfif");
+  border-color: #6930c3;
+
+}
+
+#presente-tampa-acao:hover {
+  background-image: url("Images/acao.webp");
+  border-color: #6930c3;
+}
+
+#presente-tampa-rival:hover {
+  background-image: url("Images/ryuga.jfif");
+  border-color: #6930c3;
+  background-position: center;
+}
+
+#presente-tampa-sorriso:hover {
+  background-image: url("Images/sorriso.png");
+  border-color: #6930c3;
+  background-position: center;
+}
+
+#rodape {
+  text-shadow: 0px 0px 3px black;
+  font-style: italic;
+  margin: 40px auto 20px auto;
+  width: 420px;
+}
+
+#rodape-curso {
+  color: #ffffff;
+}
