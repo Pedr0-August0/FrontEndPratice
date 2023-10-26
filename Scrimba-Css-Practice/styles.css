@@ -3,11 +3,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    margin: 0;
 }
 
 h1,
 h2 {
     font-weight: 300;
+    margin-top: 0;
 }
 
 
@@ -17,11 +19,15 @@ h1 {
 
 h2 {
     font-size: 42px;
+    margin-bottom: 5px;
 }
 
 h3 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
+
+
 
 .h1-size-styling {
     font-size: 80px;
@@ -36,8 +42,29 @@ h3 {
     display: block;
 }
 
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+
+}
+
 .small-text {
     font-size: 16px;
+    margin-top: 0px;
+}
+
+.padding {
+    padding: 100px
+}
+
+.dark-bg {
+    background-color: #252525;
+    color: #FFF;
 }
 
 .container {
