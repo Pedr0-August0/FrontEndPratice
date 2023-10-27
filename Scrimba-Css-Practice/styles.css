@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+/* tipografia */
+
 h1,
 h2 {
     font-weight: 300;
@@ -19,15 +21,20 @@ h1 {
 
 h2 {
     font-size: 42px;
-    margin-bottom: 5px;
+    border-bottom: solid 1px #C4C4C4;
+    border-top: solid 1px #C4C4C4;
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
 h3 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
-
+p {
+    margin-bottom: 0;
+}
 
 .h1-size-styling {
     font-size: 80px;
@@ -40,7 +47,20 @@ h3 {
 .bold-text {
     font-weight: 900;
     display: block;
+    color: #99D930;
 }
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+time,
+.name {
+    color: #99D930;
+}
+
+/* links e botoes */
 
 a {
     color: #99D930;
@@ -50,13 +70,33 @@ a {
 a:hover,
 a:focus {
     color: #131313;
-
 }
 
-.small-text {
-    font-size: 16px;
-    margin-top: 0px;
+.btn {
+    background-color: #99D930;
+    color: #252525;
+    text-decoration: none;
+    padding: 14px 28px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #FFF;
+}
+
+article .btn:hover,
+.btn:focus {
+    background-color: #fff;
+    color: #252525;
+}
+
+
+
+/* espaçamento */
 
 .padding {
     padding: 100px
